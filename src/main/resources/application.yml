@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: P@ssw0rd
+    url: jdbc:sqlserver://11.10.10.10:1433;databaseName=proiect
+  jpa:
+    open-in-view: false
+#    show-sql: false
